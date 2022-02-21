@@ -35,19 +35,7 @@ function emailValidation(){
 }
 
 function passValidation(){
-    // let regExp=new RegExp("^[a-zA-Z0-9]{8,24}$");
-    // errMsg2.textContent="";
-    // if(password.value==""){
-    //     errMsg2.textContent="this field is required";
-    //     return false;
-    // }
-    // else if(regExp.test(password.value)==false){
-    //     errMsg2.textContent="Password is incorrect";
-    //     return false;
-    // }
-    // else{
-    //     return true;
-    // }
+    
     errMsg2.textContent="";
     let regExp= new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,24})");
     if(password.value===""){
